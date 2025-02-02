@@ -1,0 +1,6 @@
+@ChatEvents.Server_HostAddress = http://localhost:5239
+
+GET {{ChatEvents.Server_HostAddress}}/chat-rooms/1/aggregated-events/MinuteByMinute/
+Accept: application/json
+
+###
